@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SKYLINK – Creating Future Lifestyle</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+  <!-- ================= HEADER ================= -->
+  <header class="site-header">
+    <div class="header-inner">
+
+      <!-- Logo -->
+      <div class="logo">
+        <img src="assets/images/backgroundremove.png" alt="Skylink Logo">
+      </div>
+
+      <!-- Navigation -->
+      <nav class="nav-pill" id="navMenu">
+
+        <a href="index.html" class="active">
+          <i class="fa-solid fa-house"></i> Home
+        </a>
+
+        <a href="About.html">
+          <i class="fa-regular fa-gem"></i> About
+        </a>
+        <div class="dropdown">
+          <button class="dropdown-toggle" onclick="toggleDropdown(event)">
+            <i class="fa-solid fa-cube"></i> Products
+            <i class="fa-solid fa-chevron-down arrow"></i>
+          </button>
+
+          <div class="dropdown-menu">
+            <a href="Cruise.html">
+              <i class="fa-solid fa-ship"></i> Cruise Model
+            </a>
+            <a href="Studio.html">
+              <i class="fa-solid fa-building"></i> Studio Model
+            </a>
+            <a href="Tokyo.html">
+              <i class="fa-solid fa-city"></i> Tokyo Model
+            </a>
+          </div>
+        </div>
+
+
+        <a href="Blog.html">
+          <i class="fa-regular fa-newspaper"></i> Blogs
+        </a>
+
+        <a href="Contact.html">
+          <i class="fa-solid fa-location-dot"></i> Contact
+        </a>
+
+      </nav>
+
+      <!-- CTA -->
+
+      <a href="Contact.html" class="cta-btn">
+        <i class="fa-solid fa-rocket"></i> Start Now
+      </a>
+
+      <!-- Mobile Menu Button -->
+      <div class="menu-btn" onclick="toggleMenu()">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+
+    </div>
+  </header>
+
+ <section class="hero">
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content">
+    <span class="hero-tag">🚀 Future-Ready Living</span>
+
+    <h1>
+      Build the <span>Future</span><br />
+      Today
+    </h1>
+
+    <p>
+      Premium capsule homes designed for modern lifestyles, smart living, and
+      sustainable comfort.
+    </p>
+
+    <div class="hero-btns">
+      <a href="#" class="btn primary">Explore Products</a>
+      <a href="#" class="btn ghost">Request Consultation</a>
+    </div>
+  </div>
+</section>
+
+ 
+ <!-- ================= INTRO VALUE STRIP (BEFORE HERO) ================= -->
+  <section class="intro-values">
+
+    <div class="intro-values-inner">
+
+      <div class="intro-value">
+        <div class="intro-icon">
+          <i class="fa-solid fa-leaf"></i>
+        </div>
+        <h4>Nature-Inspired Living</h4>
+        <p>
+          Capsule homes designed to blend modern comfort with calm,
+          sustainable surroundings.
+        </p>
+      </div>
+
+      <div class="intro-value">
+        <div class="intro-icon">
+          <i class="fa-solid fa-helmet-safety"></i>
+        </div>
+        <h4>Precision Built Quality</h4>
+        <p>
+          Factory-engineered structures delivering durability,
+          consistency, and faster installation.
+        </p>
+      </div>
+
+      <div class="intro-value">
+        <div class="intro-icon">
+          <i class="fa-solid fa-people-roof"></i>
+        </div>
+        <h4>Modern Lifestyle Comfort</h4>
+        <p>
+          Smart layouts crafted for resorts, residences,
+          and future-ready living spaces.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ================= LUXURY MODELS SECTION ================= -->
+  <section class="luxury-models">
+    <div class="models-container">
+
+      <div class="section-head">
+        <span class="luxury-tag">✦ OUR PREMIUM COLLECTION</span>
+        <h2>Skylink Capsule Models</h2>
+        <p>Designed for modern living with luxury, comfort, and smart efficiency.</p>
+      </div>
+
+      <div class="models-grid">
+
+        <!-- Card 1 -->
+        <div class="model-card">
+          <img src="assets/images/img107.jpeg" alt="Cruise Model">
+          <div class="model-info">
+            <h3>Cruise Model</h3>
+            <p>Luxury capsule with premium interiors.</p>
+            <div class="model-meta">
+              <span>₹27L+</span>
+              <span>★★★★★</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="model-card">
+          <img src="assets/images/img15.jpeg" alt="Studio Model">
+          <div class="model-info">
+            <h3>Studio Model</h3>
+            <p>Compact, elegant & smart living.</p>
+            <div class="model-meta">
+              <span>₹18L+</span>
+              <span>★★★★★</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="model-card">
+          <img src="assets/images/img20.jpeg" alt="Tokyo Model">
+          <div class="model-info">
+            <h3>Tokyo Model</h3>
+            <p>Minimalist design with modern comfort.</p>
+            <div class="model-meta">
+              <span>₹22L+</span>
+              <span>★★★★★</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  
+  <!-- why skylink -->
+
+
+  <section class="why-skylink luxury-style-section">
+    <!-- Background Image / Video Layer (optional) -->
+    <div class="section-bg">
+      <!-- If image -->
+      <img src="assets/images/cruise.jpeg" alt="Why Skylink">
+
+      <!-- If video -->
+      <!--
+    <video autoplay muted loop playsinline>
+      <source src="videos/why-skylink.mp4" type="video/mp4">
+    </video>
+    -->
+    </div>
+
+    <!-- Soft Overlay -->
+    <div class="section-overlay"></div>
+
+    <!-- Content -->
+    <div class="section-content">
+      <span class="section-tag">WHY SKYLINK</span>
+
+      <h2>
+        Crafted for the <span>Future Lifestyle</span>
+      </h2>
+
+      <p class="section-desc">
+        Skylink capsule homes are engineered for luxury, speed, and durability —
+        combining modern architecture with advanced manufacturing precision.
+      </p>
+
+      <!-- Feature Grid -->
+      <div class="why-grid">
+        <div class="why-card">
+          <h3>Premium Manufacturing</h3>
+          <p>Factory-built with strict quality control for unmatched precision.</p>
+        </div>
+
+        <div class="why-card">
+          <h3>Fast Installation</h3>
+          <p>Delivered and installed in weeks, not months.</p>
+        </div>
+
+        <div class="why-card">
+          <h3>Luxury Design</h3>
+          <p>Minimal, modern interiors designed for comfort and elegance.</p>
+        </div>
+
+        <div class="why-card">
+          <h3>Weather Resistant</h3>
+          <p>Built to withstand extreme climates and long-term usage.</p>
+        </div>
+      </div>
+
+      <!-- CTA -->
+      <a href="#" class="luxury-btn">
+        Discover Skylink <span>→</span>
+      </a>
+    </div>
+
+    <!-- Decorative Corners (same as hero) -->
+    <span class="decor decor-top-left"></span>
+    <span class="decor decor-top-right"></span>
+    <span class="decor decor-bottom-left"></span>
+    <span class="decor decor-bottom-right"></span>
+  </section>
+ <!-- ================= LUXURY FEATURES video ================= -->
+  <section class="luxury-features">
+
+    <!-- Background Video -->
+    <div class="features-video">
+      <video autoplay muted loop playsinline>
+        <source src="assets/videos/cruisevideo.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <!-- Overlay -->
+    <div class="features-overlay"></div>
+
+    <!-- Content -->
+    <div class="features-inner fade-up">
+
+      <span class="luxury-tag">✦ THE SKYLINK STANDARD</span>
+
+      <h2>
+        Modern Living,<br>
+        <span>Engineered</span> to Last
+      </h2>
+
+      <p class="features-desc">
+        Skylink capsule homes are crafted with precision manufacturing,
+        sustainable materials, and future-ready design systems.
+      </p>
+
+      <!-- Feature Grid -->
+      <div class="features-grid">
+
+        <div class="feature">
+          <h4>Modular Architecture</h4>
+          <p>Expandable layouts designed for growth and flexibility.</p>
+        </div>
+
+        <div class="feature">
+          <h4>Smart Integration</h4>
+          <p>Automation-ready systems for lighting, climate, and security.</p>
+        </div>
+
+        <div class="feature">
+          <h4>Sustainable Build</h4>
+          <p>Energy-efficient insulation with eco-conscious materials.</p>
+        </div>
+
+        <div class="feature">
+          <h4>Factory Precision</h4>
+          <p>Controlled manufacturing ensures consistent quality.</p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+  <!-- ================= Z FORMAT SECTIONS ================= -->
+
+  <section class="z-section">
+
+    <!-- USE CASES -->
+    <div class="z-row">
+      <div class="z-media">
+        <img src="assets/images/img16.jpeg" alt="Skylink Use Cases">
+      </div>
+
+      <div class="z-content">
+        <span class="z-tag">USE CASES</span>
+        <h2>Designed for Multiple <span>Lifestyle Needs</span></h2>
+        <p>
+          Skylink capsule homes adapt seamlessly across industries,
+          offering flexible and premium solutions wherever speed and
+          design matter.
+        </p>
+
+        <ul>
+          <li>🏨 Luxury Resorts & Glamping</li>
+          <li>🏡 Smart Living Homes</li>
+          <li>🏗 Workforce & Site Housing</li>
+          <li>🧑‍⚕ Medical & Emergency Units</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- SPECIFICATIONS -->
+    <div class="z-row reverse">
+      <div class="z-media">
+        <img src="assets/images/img28.jpeg" alt="Skylink Specifications">
+      </div>
+
+      <div class="z-content">
+        <span class="z-tag">SPECIFICATIONS</span>
+        <h2>Engineered with <span>Precision</span></h2>
+        <p>
+          Every Skylink unit is manufactured using advanced technology
+          to ensure durability, safety, and long-term performance.
+        </p>
+
+        <ul>
+          <li>⚙️ Factory-built steel structure</li>
+          <li>🌦 Weather & corrosion resistant</li>
+          <li>🔇 Thermal & acoustic insulation</li>
+          <li>⚡ Pre-installed electrical & plumbing</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- HOW IT WORKS -->
+    <div class="z-row">
+      <div class="z-media">
+        <img src="assets/images/img29.jpeg" alt="How Skylink Works">
+      </div>
+
+      <div class="z-content">
+        <span class="z-tag">HOW IT WORKS</span>
+        <h2>From Factory to <span>Finish</span></h2>
+        <p>
+          Our streamlined process ensures faster delivery,
+          minimal site disruption, and unmatched build quality.
+        </p>
+
+        <ul>
+          <li>📝 Consultation & Design Finalization</li>
+          <li>🏭 Factory Manufacturing</li>
+          <li>🚚 Transport & On-Site Installation</li>
+          <li>✨ Ready-to-Use Handover</li>
+        </ul>
+      </div>
+    </div>
+
+  </section>
+
+ 
+
+
+  <!-- ================= CTA SECTION ================= -->
+  <section class="cta-section">
+    <div class="cta-box">
+
+      <!-- Decorative Lines -->
+      <div class="cta-lines left"></div>
+      <div class="cta-lines right"></div>
+
+      <!-- Eyebrow Tag (same style as hero tag) -->
+      <span class="luxury-tag">✦ LET’S BUILD TOGETHER</span>
+
+      <!-- Heading (same font logic as hero h1) -->
+      <h2>
+        Start the <span>Conversation</span><br>
+        Build the Future Today
+      </h2>
+
+      <!-- Description (same tone & spacing as hero p) -->
+      <p>
+        Share your requirements, ideas, or project goals.<br>
+        Our team will guide you with a tailored capsule solution.
+      </p>
+
+      <!-- Button (same button system) -->
+      <a href="Contact.html" class="cta-main-btn">
+        Get Started Now <span>→</span>
+      </a>
+
+
+    </div>
+
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+
+      <!-- Brand -->
+      <div class="footer-col brand">
+        <img src="assets/images/backgroundremove.png" alt="Skylink Logo">
+
+        <p>
+          Creating future-ready capsule homes<br>
+          with smart, sustainable design.
+        </p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <a href="index.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Blog.html">Blogs</a>
+        <a href="Contact.html">Contact</a>
+      </div>
+
+      <!-- Products -->
+      <div class="footer-col">
+        <h4>Products</h4>
+        <a href="Products/Cruise.html">Cruise Model</a>
+        <a href="Products/Studio.html">Studio Model</a>
+        <a href="Products/Tokyo.html">Tokyo Model</a>
+        <a href="Furniture.html">Furnitures</a>
+      </div>
+
+      <!-- Contact -->
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <p><i class="fa-solid fa-phone"></i> +91 8220333484</p>
+        <p><i class="fa-solid fa-envelope"></i> info@skylinkhomes.com</p>
+        <p><i class="fa-solid fa-location-dot"></i> Bangalore, India</p>
+
+        <div class="footer-social">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        © 2026 SKYLINK. All rights reserved.
+      </div>
+    </div>
+
+
+  </footer>
+
+
+
+
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
